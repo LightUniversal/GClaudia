@@ -6,15 +6,14 @@ const Footer = () => {
     <footer className="bg-slate-900 text-white py-10 mt-6 px-10">
       <div className="container mx-auto flex flex-wrap justify-between">
         <div className="w-full md:w-1/2 lg:w-1/3">
-          <h3 className="text-xl font-bold mb-4">GodsExclusiveOrnament</h3>
-          <p>Address Line 1</p>
-          <p>Address Line 2</p>
-          <p>City, State, ZIP Code</p>
+          <h3 className="text-xl font-bold mb-4">G-Claudia</h3>
+          <p>Nnamdi Azikiwe University, Awka</p>
+          <p>Awka, Anambra State, 420112</p>
         </div>
         <div className="w-full md:w-1/2 lg:w-1/3 mt-6 md:mt-0">
           <h3 className="text-xl font-bold mb-4">Contact Information</h3>
-          <p>Phone: (555) 123-4567</p>
-          <p>Email: <a href="mailto:info@example.com" className="text-blue-300">GodsExclusiveO@example.com</a></p>
+          <p><a href="tel:+2347038717473">Tell:+2347038717473 </a></p>
+          <p>Email: <a href="mailto:info@example.com" className="text-blue-300">gclaudia@example.com</a></p>
           <p>Website: <a href="http://www.example.com" target="_blank" rel="noopener noreferrer" className="text-blue-300">www.example.com</a></p>
         </div>
         <div className="w-full lg:w-1/3 mt-6 lg:mt-0">
@@ -29,7 +28,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="container mx-auto mt-8">
-        <p className="text-center">&copy; 2023 GodsExclusiveOrnament. All rights reserved.</p>
+        <p className="text-center">&copy; 2023 G-Claudia. All rights reserved.</p>
         <p className="text-center">
           <a href="#" className="text-blue-300">Privacy Policy</a> | <a href="#" className="text-blue-300">Terms of Service</a>
         </p>
