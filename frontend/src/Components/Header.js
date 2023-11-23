@@ -48,13 +48,13 @@ const Header = () => {
     <div>
       <header className="bg-slate-900 shadow-lg text-white py-2">
         <nav className="flex justify-between items-center w-[92%]  mx-auto">
-          <div>
+          <Link to={"/"}>
             <img
-              className="w-16 cursor-pointer"
-              src='/image/logo.jpeg'
+              className="w-16 cursor-pointer rounded-full"
+              src='/images/logo.jpeg'
               alt="..."
             />
-          </div>
+          </Link>
           <div
             className="nav-links duration-500 md:static absolute z-10 bg-slate-900 md:min-h-fit min-h-[50vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5"
             ref={navLink}

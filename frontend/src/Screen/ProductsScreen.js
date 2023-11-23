@@ -1,6 +1,7 @@
 import React from "react";
 import { FaCartPlus, FaEye, FaShoppingCart, FaStar } from "react-icons/fa";
 import { Link, useParams } from "react-router-dom";
+import Rating from "../Components/Rating";
 import { useGetProductsQuery } from "../slices/productsApiSlice";
 
 const ProductsScreen = () => {
@@ -33,7 +34,7 @@ const ProductsScreen = () => {
               className="one shadow-xl bg-white rounded-xl border-t mx-auto px-2 py-3 md:w-1/4 my-3 w-full"
             >
               <div className="image flex justify-center">
-                <img src={product.image} className=" w-44" alt="" />
+                <img src={product.image} className=" w-56" alt="" />
               </div>
               <div className="productDets  rounded-xl px-3 py-3">
                 <div className="title">
@@ -41,18 +42,17 @@ const ProductsScreen = () => {
                 </div>
                 <div className="rating flex justify-between">
                   <div className="rates flex text-orange-300">
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
+                  <Rating
+                    value={(product.rating)}
+                    
+                  />
                   </div>
                   <div className="ratingValue relative font-bold text-slate-700 mb-2 -top-1">
-                    3 reviews
+                    {product.numReviews} reviews
                   </div>
                 </div>
                 <div className="price flex justify-between">
-                  <h3 className=" font-bold text-green-600">&euro; 45</h3>
+                  <h3 className=" font-bold text-green-600">₦ {product.price} </h3>
                   <Link
                     to={"/cart"}
                     className="flex items-center bg-slate-800 text-xs px-2 py-2 rounded-sm text-white font-bold"

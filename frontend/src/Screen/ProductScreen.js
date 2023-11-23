@@ -97,7 +97,7 @@ const ProductScreen = () => {
                   </div>
                 </div>
                 <div className="price border-b-2 border-slate-100 py-7 ">
-                  <h3 className="font-bold text-2xl">&euro; {product.price}</h3>
+                  <h3 className="font-bold text-2xl">₦ {product.price}</h3>
                   <p className="info font-bold text-sm mt-2">
                     Information concerning the pricing...
                   </p>
@@ -132,7 +132,7 @@ const ProductScreen = () => {
                     </Link>
                     <p className=" font-bold flex items-center mt-3">
                       <FaShippingFast className="mr-2" /> Free Delivery on
-                      orders above &euro; 40.00
+                      orders above ₦ 10,000.00
                     </p>
                   </div>
                 </div>
