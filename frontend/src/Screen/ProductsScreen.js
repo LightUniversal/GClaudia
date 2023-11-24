@@ -34,7 +34,7 @@ const ProductsScreen = () => {
               className="one shadow-xl bg-white rounded-xl border-t mx-auto px-2 py-3 md:w-1/4 my-3 w-full"
             >
               <div className="image flex justify-center">
-                <img src={product.image} className=" w-56" alt="" />
+                <img src={product.image} className=" w-full" alt="" />
               </div>
               <div className="productDets  rounded-xl px-3 py-3">
                 <div className="title">

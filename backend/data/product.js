@@ -3,7 +3,7 @@ const products = [
     name: "Awesome Hand Bag",
     image: "/images/one.jpeg",
     description:
-      "This bag has various sizes ranging from Micro ₦8000, mini ₦8000, midi ₦10,000, maxi ₦13000 ",
+      "This bag has various sizes ranging from Micro <span className='font-bold text-green-400'></span>₦8000, mini <span className='font-bold text-green-400'></span>₦8000, midi <span className='font-bold text-green-400'></span>₦10,000, maxi <span className='font-bold text-green-400'></span>₦13000 ",
     price: 13000,
     countInStock: 1,
     rating: 4.5,
@@ -12,7 +12,7 @@ const products = [
   {
     name: "Classic Hand Bag",
     image: "/images/five.jpeg",
-    description: "Micro ₦8000, mini ₦8000, midi ₦10,000, maxi ₦13000",
+    description: "Micro <span className='font-bold text-green-400'></span>₦8000, mini <span className='font-bold text-green-400'></span>₦8000, midi <span className='font-bold text-green-400'></span>₦10,000, maxi <span className='font-bold text-green-400'></span>₦13000",
     price: 13000,
     countInStock: 7,
     rating: 4.0,
@@ -21,7 +21,7 @@ const products = [
   {
     name: "Classic Hand Bag",
     image: "/images/six.jpeg",
-    description: "Micro ₦8000, mini ₦8000, midi ₦10,000, maxi ₦13000",
+    description: "Micro <span className='font-bold text-green-400'></span>₦8000, mini <span className='font-bold text-green-400'></span>₦8000, midi <span className='font-bold text-green-400'></span>₦10,000, maxi <span className='font-bold text-green-400'></span>₦13000",
     price: 12000,
     countInStock: 7,
     rating: 4.0,
@@ -30,7 +30,7 @@ const products = [
   {
     name: "Classic Hand Bag",
     image: "/images/seven.jpeg",
-    description: "Micro ₦8000, mini ₦8000, midi ₦10,000, maxi ₦13000",
+    description: "Micro <span className='font-bold text-green-400'></span>₦8000, mini <span className='font-bold text-green-400'></span>₦8000, midi <span className='font-bold text-green-400'></span>₦10,000, maxi <span className='font-bold text-green-400'></span>₦13000",
     price: 12000,
     countInStock: 7,
     rating: 4.0,
@@ -39,7 +39,7 @@ const products = [
   {
     name: "Classic Hand Bag",
     image: "/images/eight.jpeg",
-    description: "Micro ₦8000, mini ₦8000, midi ₦10,000, maxi ₦13000",
+    description: "Micro <span className='font-bold text-green-400'></span>₦8000, mini <span className='font-bold text-green-400'></span>₦8000, midi <span className='font-bold text-green-400'></span>₦10,000, maxi <span className='font-bold text-green-400'></span>₦13000",
     price: 12000,
     countInStock: 7,
     rating: 4.0,
@@ -48,7 +48,7 @@ const products = [
   {
     name: "Classic Hand Bag",
     image: "/images/nine.jpeg",
-    description: "Micro ₦8000, mini ₦8000, midi ₦10,000, maxi ₦13000",
+    description: "Micro <span className='font-bold text-green-400'></span>₦8000, mini <span className='font-bold text-green-400'></span>₦8000, midi <span className='font-bold text-green-400'></span>₦10,000, maxi <span className='font-bold text-green-400'></span>₦13000",
     price: 12000,
     countInStock: 7,
     rating: 4.0,
@@ -57,7 +57,7 @@ const products = [
   {
     name: "Classic Hand Bag",
     image: "/images/ten.jpeg",
-    description: "Micro ₦8000, mini ₦8000, midi ₦10,000, maxi ₦13000",
+    description: "Micro <span className='font-bold text-green-400'></span>₦8000, mini <span className='font-bold text-green-400'></span>₦8000, midi <span className='font-bold text-green-400'></span>₦10,000, maxi <span className='font-bold text-green-400'></span>₦13000",
     price: 12000,
     countInStock: 7,
     rating: 4.0,
@@ -66,7 +66,7 @@ const products = [
   {
     name: "Classic Hand Bag",
     image: "/images/eleven.jpeg",
-    description: "Micro ₦8000, mini ₦8000, midi ₦10,000, maxi ₦13000",
+    description: "Micro <span className='font-bold text-green-400'></span>₦8000, mini <span className='font-bold text-green-400'></span>₦8000, midi <span className='font-bold text-green-400'></span>₦10,000, maxi <span className='font-bold text-green-400'></span>₦13000",
     price: 12000,
     countInStock: 7,
     rating: 4.0,
@@ -75,7 +75,7 @@ const products = [
   {
     name: "Classic Hand Bag",
     image: "/images/twelve.jpeg",
-    description: "Micro ₦8000, mini ₦8000, midi ₦10,000, maxi ₦13000",
+    description: "Micro <span className='font-bold text-green-400'></span>₦8000, mini <span className='font-bold text-green-400'></span>₦8000, midi <span className='font-bold text-green-400'></span>₦10,000, maxi <span className='font-bold text-green-400'></span>₦13000",
     price: 12000,
     countInStock: 7,
     rating: 4.0,

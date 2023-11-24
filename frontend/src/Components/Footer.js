@@ -12,9 +12,9 @@ const Footer = () => {
         </div>
         <div className="w-full md:w-1/2 lg:w-1/3 mt-6 md:mt-0">
           <h3 className="text-xl font-bold mb-4">Contact Information</h3>
-          <p><a href="tel:+2347038717473">Tell:+2347038717473 </a></p>
+          <p><a href="tel:+2347038717473" className="text-blue-300">Tell:+2347038717473 </a></p>
           <p>Email: <a href="mailto:info@example.com" className="text-blue-300">gclaudia@example.com</a></p>
-          <p>Website: <a href="http://www.example.com" target="_blank" rel="noopener noreferrer" className="text-blue-300">www.example.com</a></p>
+          <p>Website: <a href="http://www.example.com" target="_blank" rel="noopener noreferrer" className="text-blue-300">https://gclaudia.onrender.com/</a></p>
         </div>
         <div className="w-full lg:w-1/3 mt-6 lg:mt-0">
           <h3 className="text-xl font-bold mb-4">Follow Us</h3>
