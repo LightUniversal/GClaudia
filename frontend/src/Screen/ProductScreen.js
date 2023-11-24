@@ -79,10 +79,10 @@ const ProductScreen = () => {
           <div className=" w-4/5 mx-auto mt-6">
             <div className="top"></div>
             <div className="productdescription flex justify-between flex-wrap w-full  gap-12 md:w-4/5">
-              <div className="product shadow-sm rounded-2xl  w-full md:w-3/6 p-7 flex justify-center  items-center">
-                <img src={product.image} alt="" className=" w-56  md:w-4/6 md:h-4/6" />
+              <div className="product  rounded-2xl  w-full md:w-3/6 p-7 flex justify-center  items-center">
+                <img src={product.image} alt="" className=" w-3/4  md:w-4/6 md:h-4/6" />
               </div>
-              <div className="description w-full md:w-2/3 p-3 rounded-lg">
+              <div className="description w-full md:w-2/3 p-2 rounded-lg">
                 <div className="head border-b-2 border-slate-100 py-7 ">
                   <h3 className=" font-bold text-3xl mb-3">{product.name}</h3>
                   <p className="font-bold">{product.description}</p>
